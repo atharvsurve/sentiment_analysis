@@ -1,0 +1,96 @@
+body{
+    /* background-color: blanchedalmond; */
+    background-image: url('bg.jpg');
+    
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+h1{
+    color: yellow;
+    /* color: rgb(245, 134, 7); */
+
+    font-size: 60px;
+    align-self: center;
+}
+
+.userinput{
+    align-self: center;
+}
+
+h2{
+    font-size: 38px;
+    color: rgb(245, 134, 7);
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 1px grey;
+}
+
+
+
+.url {
+    width: 400px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-right:  6px;
+    transition: border-color 0.3s;
+}
+
+.url:focus {
+    border-color: #007BFF;
+}
+
+::placeholder {
+    color: #999;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 20px;
+    background-color: rgb(245, 134, 7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: orangered;
+}
+
+.description{
+    position: relative;
+    top: 15px;
+    font-style: oblique;
+    font-size: 30px;
+    color: rgb(245, 134, 7);
+    align-self: center;
+
+}
+
+img{
+    position: relative;
+    top: 30px;
+    height: 370px;
+    width: 470px;
+    border-radius: 30px;
+    background-color: rgb(177, 110, 38);
+    box-shadow: 0px 0px 0px 10px rgba(164, 162, 162, 0.1);
+    align-self: center;
+}
+
